@@ -1,0 +1,249 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/myLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    
+    <LinearLayout 
+        android:layout_width="fill_parent" 
+    android:layout_height="wrap_content" 
+    android:background="@drawable/dial_input" 
+    android:gravity="center_vertical" 
+    android:orientation="horizontal"
+    android:visibility="visible">
+
+        <EditText
+            android:id="@+id/mynumber"
+            android:layout_width="fill_parent"
+            android:layout_height="90dp"
+            android:background="@color/black"
+            android:gravity="center_vertical|right"
+            android:hint="@string/mynumber"
+            android:inputType="number"
+            android:phoneNumber="true"
+            android:orientation="horizontal"
+            android:paddingRight="20dip"
+            android:textColor="#FFFFFF"
+            android:textSize="20sp" />
+    
+</LinearLayout>
+<LinearLayout 
+    android:orientation="vertical"
+    android:background="@drawable/gray_line" 
+    android:layout_width="fill_parent"
+    android:layout_height="1dip">
+</LinearLayout>
+<LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:orientation="vertical"
+        android:layout_weight="1"
+        android:background="@color/black"
+         >
+ 	
+        <EditText 
+        android:id="@+id/callnumber" 
+        android:hint="@string/callnumber"
+        android:layout_width="fill_parent" 
+        android:layout_height="fill_parent" 
+        android:inputType="number"
+        android:phoneNumber="true"
+        android:background="@color/black" 
+        android:gravity="center_vertical|right" 
+        android:orientation="horizontal" 
+        android:paddingRight="20dip" 
+        android:textColor="#FFFFFF" 
+        android:textSize="20sp"
+        >
+    </EditText>
+    </LinearLayout>
+    
+<LinearLayout 
+    android:layout_width="fill_parent" 
+    android:layout_height="wrap_content" 
+    >
+   <RadioGroup
+     android:id="@+id/tongdao"
+     android:layout_width="fill_parent"
+     android:layout_height="wrap_content"
+     android:gravity="center"
+   	 android:orientation="horizontal">
+    <RadioButton 
+        android:id="@+id/tongdao1" 
+        android:checked="true"
+        android:layout_width="wrap_content"
+        android:layout_height="fill_parent" 
+        android:text="@string/tongdao1"
+        android:gravity="right" 
+        android:textSize="30sp"/>
+
+    <RadioButton
+        android:id="@+id/tongdao2"
+        android:layout_width="wrap_content"
+        android:layout_height="fill_parent"
+        android:text="@string/tongdao2"
+        android:textSize="30sp" />
+</RadioGroup>
+</LinearLayout>
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/dialNum1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/num1_ic"
+            android:tag="1" />
+
+        <Button
+            android:id="@+id/dialNum2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/num2_ic"
+            android:tag="2" />
+
+        <Button
+            android:id="@+id/dialNum3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/num3_ic"
+            android:tag="3" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/dialNum4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/num4_ic"
+            android:tag="4" />
+
+        <Button
+            android:id="@+id/dialNum5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/num5_ic"
+            android:tag="5" />
+
+        <Button
+            android:id="@+id/dialNum6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/num6_ic"
+            android:tag="6" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/dialNum7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/num7_ic"
+            android:tag="7" />
+
+        <Button
+            android:id="@+id/dialNum8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/num8_ic"
+            android:tag="8" />
+
+        <Button
+            android:id="@+id/dialNum9"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/num9_ic"
+            android:tag="9" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/dialx"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/dialx_ic"
+            android:tag="*" />
+
+        <Button
+            android:id="@+id/dialNum0"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/num0_ic"
+            android:tag="0" />
+
+        <Button
+            android:id="@+id/dialj"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/dialj_ic"
+            android:tag="#" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/black"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/contacts"
+            android:layout_width="65sp"
+            android:layout_height="fill_parent"
+            android:background="@drawable/add"
+            android:tag="*" />
+
+        <TextView
+            android:layout_width="20sp"
+            android:layout_height="fill_parent"
+            android:background="@color/black" />
+        
+        <Button
+            android:id="@+id/mainCall"
+            android:layout_width="155dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/main_call"
+            android:tag="0"
+            android:text="@string/bohao"
+            android:textColor="#FFFFFF"
+            android:textSize="30sp" />
+
+        <TextView
+            android:layout_width="20sp"
+            android:layout_height="fill_parent"
+            android:background="@color/black" />
+
+        <Button
+            android:id="@+id/delete"
+            android:layout_width="match_parent"
+            android:layout_height="fill_parent"
+            android:background="@drawable/dial_delete3" />
+    </LinearLayout>
+
+</LinearLayout>

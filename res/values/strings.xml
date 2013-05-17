@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">云呼</string>
+    <string name="contacts_name">云呼联系人</string>
+    <string name="bohao">呼叫</string>
+    
+    
+    <string name="action_settings">设置</string>
+    <string name="action_about">关于</string>
+    
+    
+	<string name="mynumber">请输入本机号码</string>
+	<string name="callnumber">请输入拨打号码</string>
+	
+	
+	<string name="tongdao1">通道1</string>
+	<string name="tongdao2">通道2</string>
+	
+	
+	<string name="call_name">姓名</string>
+	<string name="call_number">号码</string>
+	<string name="call_kong"></string>
+	<string name="hangup">挂断</string>
+</resources>
